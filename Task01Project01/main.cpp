@@ -20,5 +20,7 @@ int main() {
 
 	cout << "Answer: " << msg << endl;
 
+	cout << "First value index is " << find_first_value_index(array, size, value) << endl;
+
 	return 0;
 }
